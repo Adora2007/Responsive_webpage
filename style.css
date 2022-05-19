@@ -1,0 +1,67 @@
+.box{
+    width:100px;
+    background-color: yellow;
+    border: 10px solid blueviolet;
+    padding: 50px;
+    margin: 12px;
+    font-size: 60px;
+    font-style: oblique;
+    float: 60%;
+    box-sizing: border-box;
+    column-count: 3;
+
+
+}
+
+.container {
+    column-width: 12em;
+  }
+
+#row-rev {
+    flex-direction: row-reverse;
+  }
+
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+@media screen and (min-width: 480px) {
+    
+     .box{
+        width: 65%;
+        padding: 25px;
+        margin: 5px;
+        float: right;
+        box-direction: table;
+        background:#FFCCBC;
+
+      }
+      .container {
+        margin: 1em 2em;
+        column-width: 2em;
+    
+    }
+
+}
+
+
+  @media only screen and (min-width: 768px) {
+ body{
+     background-color: aqua;
+
+ }
+ .box{
+     align-content: 100%;
+ }
+ 
+  }
+
+ 
+
+  
+  
+        
+  
